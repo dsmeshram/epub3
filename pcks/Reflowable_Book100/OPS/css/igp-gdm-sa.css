@@ -1,0 +1,176 @@
+/*DESIGN PROFILE - Default */
+/* Copyright 2013 Infogrid Pacific Pte. Ltd. All rights reserved. */
+/* Profile Name: CSS Minification */
+/* Created By: Infogrid Pacific */
+/* Creation Date: 2013-04-24 */
+/* Modified By: Infogrid Pacific */
+@font-face { font-family: "BookTitlePage"; font-weight: 400; font-style: normal; font-stretch: normal; font-variant: normal; src: url("../fonts/SourceSansPro-Regular.woff"); }
+@font-face { font-family: "BookTitlePage"; font-weight: 900; font-style: normal; font-stretch: normal; font-variant: normal; src: url("../fonts/SourceSansPro-Black.woff"); }
+@font-face { font-family: "BookTitlePage"; font-weight: 900; font-style: italic; font-stretch: normal; font-variant: normal; src: url("../fonts/SourceSansPro-BlackIt.woff"); }
+@font-face { font-family: "BookTitlePage"; font-weight: 700; font-style: normal; font-stretch: normal; font-variant: normal; src: url("../fonts/SourceSansPro-Bold.woff"); }
+@font-face { font-family: "BookTitlePage"; font-weight: 700; font-style: italic; font-stretch: normal; font-variant: normal; src: url("../fonts/SourceSansPro-BoldIt.woff"); }
+@font-face { font-family: "BookTitlePage"; font-weight: 200; font-style: normal; font-stretch: normal; font-variant: normal; src: url("../fonts/SourceSansPro-ExtraLight.woff"); }
+@font-face { font-family: "BookTitlePage"; font-weight: 200; font-style: italic; font-stretch: normal; font-variant: normal; src: url("../fonts/SourceSansPro-ExtraLightIt.woff"); }
+@font-face { font-family: "BookTitlePage"; font-weight: 400; font-style: italic; font-stretch: normal; font-variant: normal; src: url("../fonts/SourceSansPro-It.woff"); }
+@font-face { font-family: "BookTitlePage"; font-weight: 300; font-style: normal; font-stretch: normal; font-variant: normal; src: url("../fonts/SourceSansPro-Light.woff"); }
+@font-face { font-family: "BookTitlePage"; font-weight: 300; font-style: italic; font-stretch: normal; font-variant: normal; src: url("../fonts/SourceSansPro-LightIt.woff"); }
+@font-face { font-family: "BookTitlePage"; font-weight: 600; font-style: normal; font-stretch: normal; font-variant: normal; src: url("../fonts/SourceSansPro-Semibold.woff"); }
+@font-face { font-family: "BookTitlePage"; font-weight: 600; font-style: italic; font-stretch: normal; font-variant: normal; src: url("../fonts/SourceSansPro-SemiboldIt.woff"); }
+@font-face { font-family: "Heading"; font-weight: 400; font-style: normal; font-stretch: normal; font-variant: normal; src: url("../fonts/SourceSansPro-Regular.woff"); }
+@font-face { font-family: "Heading"; font-weight: 900; font-style: normal; font-stretch: normal; font-variant: normal; src: url("../fonts/SourceSansPro-Black.woff"); }
+@font-face { font-family: "Heading"; font-weight: 900; font-style: italic; font-stretch: normal; font-variant: normal; src: url("../fonts/SourceSansPro-BlackIt.woff"); }
+@font-face { font-family: "Heading"; font-weight: 700; font-style: normal; font-stretch: normal; font-variant: normal; src: url("../fonts/SourceSansPro-Bold.woff"); }
+@font-face { font-family: "Heading"; font-weight: 700; font-style: italic; font-stretch: normal; font-variant: normal; src: url("../fonts/SourceSansPro-BoldIt.woff"); }
+@font-face { font-family: "Heading"; font-weight: 200; font-style: normal; font-stretch: normal; font-variant: normal; src: url("../fonts/SourceSansPro-ExtraLight.woff"); }
+@font-face { font-family: "Heading"; font-weight: 200; font-style: italic; font-stretch: normal; font-variant: normal; src: url("../fonts/SourceSansPro-ExtraLightIt.woff"); }
+@font-face { font-family: "Heading"; font-weight: 400; font-style: italic; font-stretch: normal; font-variant: normal; src: url("../fonts/SourceSansPro-It.woff"); }
+@font-face { font-family: "Heading"; font-weight: 300; font-style: normal; font-stretch: normal; font-variant: normal; src: url("../fonts/SourceSansPro-Light.woff"); }
+@font-face { font-family: "Heading"; font-weight: 300; font-style: italic; font-stretch: normal; font-variant: normal; src: url("../fonts/SourceSansPro-LightIt.woff"); }
+@font-face { font-family: "Heading"; font-weight: 600; font-style: normal; font-stretch: normal; font-variant: normal; src: url("../fonts/SourceSansPro-Semibold.woff"); }
+@font-face { font-family: "Heading"; font-weight: 600; font-style: italic; font-stretch: normal; font-variant: normal; src: url("../fonts/SourceSansPro-SemiboldIt.woff"); }
+@font-face { font-family: "TitleBlock"; font-weight: 400; font-style: normal; font-stretch: normal; font-variant: normal; src: url("../fonts/SourceSansPro-Regular.woff"); }
+@font-face { font-family: "TitleBlock"; font-weight: 900; font-style: normal; font-stretch: normal; font-variant: normal; src: url("../fonts/SourceSansPro-Black.woff"); }
+@font-face { font-family: "TitleBlock"; font-weight: 900; font-style: italic; font-stretch: normal; font-variant: normal; src: url("../fonts/SourceSansPro-BlackIt.woff"); }
+@font-face { font-family: "TitleBlock"; font-weight: 700; font-style: normal; font-stretch: normal; font-variant: normal; src: url("../fonts/SourceSansPro-Bold.woff"); }
+@font-face { font-family: "TitleBlock"; font-weight: 700; font-style: italic; font-stretch: normal; font-variant: normal; src: url("../fonts/SourceSansPro-BoldIt.woff"); }
+@font-face { font-family: "TitleBlock"; font-weight: 200; font-style: normal; font-stretch: normal; font-variant: normal; src: url("../fonts/SourceSansPro-ExtraLight.woff"); }
+@font-face { font-family: "TitleBlock"; font-weight: 200; font-style: italic; font-stretch: normal; font-variant: normal; src: url("../fonts/SourceSansPro-ExtraLightIt.woff"); }
+@font-face { font-family: "TitleBlock"; font-weight: 400; font-style: italic; font-stretch: normal; font-variant: normal; src: url("../fonts/SourceSansPro-It.woff"); }
+@font-face { font-family: "TitleBlock"; font-weight: 300; font-style: normal; font-stretch: normal; font-variant: normal; src: url("../fonts/SourceSansPro-Light.woff"); }
+@font-face { font-family: "TitleBlock"; font-weight: 300; font-style: italic; font-stretch: normal; font-variant: normal; src: url("../fonts/SourceSansPro-LightIt.woff"); }
+@font-face { font-family: "TitleBlock"; font-weight: 600; font-style: normal; font-stretch: normal; font-variant: normal; src: url("../fonts/SourceSansPro-Semibold.woff"); }
+@font-face { font-family: "TitleBlock"; font-weight: 600; font-style: italic; font-stretch: normal; font-variant: normal; src: url("../fonts/SourceSansPro-SemiboldIt.woff"); }
+.frontmatter-rw .title-block-rw .title-num-rw { font-family: FrontmatterTitleNumber, FrontmatterTitleBlock, TitleBlock, Galley; }
+body, section, div, table, thead, tbody, tfoot, th, td, p, pre, ul, ol, dl, dt, dd, li, span, nav, header, footer { margin: 0; padding: 0; }
+body { margin: 0; padding: 0; }
+div { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
+.copyright-rw { font-size: 0.9em; line-height: 1.2em; padding-top: 4em; padding-right: 1em; padding-left: 2em; }
+.copyright-rw p { text-align: left; text-indent: 0; margin-bottom: 0; padding-bottom: 0.5em; }
+.galley-rw { font-size: 1.0em; font-weight: normal; line-height: 1.2em; text-align: justify; letter-spacing: 0; word-spacing: 0; }
+p { text-indent: 0; padding-bottom: 0; }
+p+p { text-indent: 1.3em; }
+.align-center-rw { text-align: center; text-indent: 0; }
+.align-right-rw { text-align: right; }
+.firstpara-rw { text-indent: 0; }
+.attribution-rw { font-style: italic; text-align: right; }
+div+p { text-indent: 0; }
+h2+p { text-indent: 0; }
+h4+p { text-indent: 0; }
+.block-rw p:first-child { text-indent: 0; }
+.layout-rw p:first-child { text-indent: 0; }
+.media-rw p:first-child { text-indent: 0; }
+ol+p { text-indent: 0; }
+.leading-line-rw { height: 1.27em; }
+span.smallcaps-rw { font-variant: small-caps; }
+span.dropcap-rw { float: left; font-size: 3em; line-height: 0.75em; margin: 0 0 0 0; padding: 0 0 0 0; text-indent: 0; }
+a:link { color: rgb(0, 100, 150); text-decoration: none; }
+a:visited { color: rgb(0, 100, 150); }
+a:hover { color: rgb(0, 100, 150); text-decoration: underline; }
+a:active { color: rgb(0, 100, 150); }
+span.pagebreak-rw { display: none; }
+.-epub-media-overlay-active, .-readium-epub-media-overlay-active { color: red; background-color: inherit; }
+.galley-rw h2 {font-size: 1em; line-height: 1em; color: rgb(0, 0, 0); margin-top: 2em; margin-bottom: 1em; page-break-after: avoid; font-weight: 600; text-transform: uppercase; font-style: normal; text-align: center; }
+.galley-rw h4 {font-size: 1em; line-height: 1em; color: rgb(0, 0, 0); margin-top: 1.5em; margin-bottom: 0.5em; page-break-after: avoid; font-weight: bold; text-transform: none; font-style: italic; text-align: center; }
+.galley-rw h2+div { margin-top: 0; }
+.galley-rw h4+div { margin-top: 0; }
+h2 {hyphens: none; font-family: Heading2, Heading, Galley; -webkit-hyphens: none; -moz-hyphens: none; -o-hyphens: none; }
+h4 {hyphens: none; font-family: Heading4, Heading, Galley; -webkit-hyphens: none; -moz-hyphens: none; -o-hyphens: none; }
+.Chapter-rw .title-block-rw p { text-indent: 0; }
+.frontmatter-rw .title-block-rw p { text-indent: 0; }
+.frontmatter-rw .title-block-rw {padding-right: 1em; margin-bottom: 1em; padding-bottom: 0em; padding-top: 2em; font-family: FrontmatterTitleBlock, TitleBlock, Galley; padding-left: 1em; text-align: center; }
+.frontmatter-rw .title-block-rw h1 {font-size: 2em; font-weight: normal; color: rgb(0, 0, 0); font-family: FrontmatterTitle, TitleBlock, Galley; line-height: 1em; text-align: inherit; }
+.frontmatter-rw .title-block-rw .title-sub-rw {font-size: 1.5em; font-family: FrontmatterTitleSubTitle, FrontmatterTitleBlock, TitleBlock, Galley; line-height: 1em; text-align: inherit; }
+.frontmatter-rw .title-block-rw .title-author-rw {line-height: 1em; font-family: FrontmatterTitleAuthor, FrontmatterTitleBlock, TitleBlock, Galley; font-style: italic; text-align: inherit; }
+.Chapter-rw .title-block-rw {padding-right: 1em; margin-bottom: 1em; padding-bottom: 0em; padding-top: 2em; font-family: ChapterTitleBlock, TitleBlock, Galley; padding-left: 1em; text-align: center; }
+.Chapter-rw .title-block-rw .title-num-rw {font-size: 1.6em; font-weight: normal; padding-bottom: 0.5em; text-align: inherit; font-family: ChapterTitleNumber, ChapterTitleBlock, TitleBlock, Galley; font-style: normal; line-height: 1em; }
+.Chapter-rw .title-block-rw h1 {font-size: 2em; font-weight: normal; color: rgb(0, 0, 0); line-height: 1em; padding-bottom: 0.5em; font-family: BookTitlePage, ChapterTitle, ChapterTitleBlock, TitleBlock, Galley; font-style: normal; text-align: inherit; }
+.Chapter-rw .title-block-rw .title-sub-rw {text-align: inherit; font-size: 1.5em; font-family: ChapterTitleSubTitle, ChapterTitleBlock, TitleBlock, Galley; line-height: 1em; padding-bottom: 0.5em; }
+.Chapter-rw .title-block-rw .title-author-rw {font-size: 1.1em; font-weight: normal; color: rgb(0, 0, 0); text-indent: 0; line-height: 1em; padding-bottom: 1em; font-family: ChapterTitleAuthor, ChapterTitleBlock, TitleBlock, Galley; font-style: italic; text-align: inherit; }
+.Chapter-rw .title-block-rw h1 { font-size: 2.00em; font-weight: normal; line-height: 1.27em; margin-top: 0; }
+.Chapter-rw .title-block-rw .title-num-rw { font-size: 2.00em; line-height: 1.27em; }
+.Chapter-rw .title-block-rw { min-height: 2.00em; margin-bottom: 1.27em; padding-top: 2.00em; }
+.title-block-book-rw {padding: 0; padding-top: 25px; font-family: BookTitlePage, Galley; margin: 0 auto 0 auto; display: inline-block; text-align: center; }
+.title-block-book-rw h1 {font-size: 120px; font-weight: 900; color: rgb(0, 0, 0); text-transform: uppercase; letter-spacing: -6px; text-indent: 0px; padding: 0px; line-height: 86px; font-family: BookTitle, BookTitlePage, Galley; margin: 0px; font-style: normal; text-align: center; }
+.title-block-book-rw .title-sub-rw {font-size: 192px; font-weight: 900; color: rgb(70, 70, 70); text-transform: uppercase; letter-spacing: -4px; text-indent: 0pt; padding: 0px; line-height: 172px; font-family: BookTitleSubTitle, BookTitlePage, Galley; margin: 0px; font-style: normal; text-align: center; }
+.title-block-book-rw .title-author-rw {padding: 0px; font-weight: normal; font-family: BookTitleAuthor, BookTitlePage, Galley; margin: 0px; font-style: normal; text-indent: 0; }
+.imprint-rw {margin-top: 25px; padding-bottom: 0; text-align: center; padding-top: 0; font-family: Imprint, BookTitlePage, Galley; margin-bottom: 0; }
+.imprint-rw p { font-size: 26px; line-height: 26px; font-style: normal; font-weight: normal; text-indent: 0; }
+.title-block-book-rw p {padding-bottom: 0; text-align: center; font-weight: normal; font-style: normal; text-indent: 0em; }
+.title-block-book-rw p+p { text-indent: 0em; }
+#BookTitlePage1 { text-align: center; }
+#BookTitlePage1 .title-author-rw { font-family: BookTitlePage; text-transform: uppercase; display: block; text-align: center; color: rgb(130, 130, 130); }
+#BookTitlePage1 .title-author-rw .style1-rw { display: inline-block; font-family: BookTitlePage; font-size: 96pt; line-height: 90pt; font-weight: 900; height: 70pt; }
+#BookTitlePage1 .title-author-rw .style2-rw { display: inline-block; font-family: BookTitlePage; font-size: 24pt; height: 24pt; text-transform: lowercase; margin: 0 0 0 -10pt; }
+#BookTitlePage1 .title-author-rw .style3-rw { display: block; font-family: BookTitlePage; font-size: 58pt; font-weight: 800; line-height: 50pt; letter-spacing: -3pt; margin: -5pt 0 20pt 0; }
+.BookTitlePage-rw div.title-block-book-rw { display: none; }
+.galley-rw ol { text-align: left; margin-top: 0.55em; margin-right: 0; margin-bottom: 0.55em; margin-left: 1.64em }
+.galley-rw li { padding-top: 0; padding-bottom: 0em; }
+.galley-rw ol li { list-style: decimal; }
+.galley-rw ol ol li { list-style: upper-latin; margin-left: 1.64em; }
+.galley-rw ol ol ol li { list-style: lower-latin; margin-left: 1.64em; }
+.galley-rw ol ol ol ol li { list-style: upper-roman; margin-left: 1.64em; }
+.galley-rw ol ol ol ol ol li { list-style: lower-roman; margin-left: 1.64em; }
+.galley-rw ol+p { text-indent: 0; }
+.galley-rw div+ol { margin-top: 0; }
+.galley-rw ol+div { margin-top: 0; }
+.list-named-rw { position: relative; padding: 0; margin: 0; }
+.list-named-rw ol { list-style-type: none; }
+.list-named-rw ol li { list-style-type: none; }
+.list-named-rw p { text-indent: 0; }
+.list-named-rw p+p { text-indent: 0; }
+.named-lists-rw { margin-top: 1em; margin-bottom: 1em; }
+.list-toc-rw ol { line-height: 1.2em; margin-left: 0em; }
+li.toc-fm-rw { font-size: 1em; font-style: italic; font-weight: normal; text-indent: -2em; padding-top: 0; padding-bottom: 0.4em; margin-right: 2em; margin-bottom: 0.25em; margin-left: 4em !important; }
+li.toc-chapter-rw { font-size: 1em; font-style: normal; font-weight: normal; padding-top: 0; padding-bottom: 0.5em; margin-right: 2em; margin-left: 2em !important; }
+li.toc-fm-rw+li.toc-chapter-rw { padding-top: 0em; }
+.block-rw h4 { font-size: 0.9em; line-height: 1.2em; text-align: left; text-indent: 0; font-style: normal; font-weight: bold; margin-top: 1em; margin-right: 0; margin-bottom: 1em; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; }
+.block-rw h5 { font-size: 0.9em; line-height: 1.2em; text-align: left; text-indent: 0; font-style: italic; font-weight: bold; margin-top: 1em; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; }
+.block-rw h6 { font-size: 0.9em; line-height: 1.2em; text-align: left; font-style: italic; margin-top: 0.5em; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; }
+.boxed-rw { border: 1px solid rgb(0, 0, 0); padding-top: 0.5em; padding-right: 1em; padding-bottom: 0.5em; padding-left: 1em; margin-top: 1em; margin-right: 0; margin-bottom: 1em; margin-left: 0; }
+pre+p { margin-top: 1em; text-indent: 0; }
+p+pre { margin-top: 1em; }
+.communication-email-rw { font-family: Email; font-size: 1em; line-height: 1.2em; margin-top: 1em; margin-right: 1em; margin-bottom: 1em; margin-left: 1em; }
+.communication-email-rw p { padding-bottom: 0.5em; text-indent: 0; }
+.communication-letter-rw { margin-top: 1em; margin-right: 1em; margin-bottom: 1em; margin-left: 1em; padding-top: 1em; padding-right: 1em; padding-bottom: 1em; padding-left: 1em; }
+.extract-rw { margin-top: 1em; margin-bottom: 1em; padding-right: 1em; padding-left: 1em; }
+.general-rw { margin-top: 1em; margin-right: 0; margin-bottom: 1em; margin-left: 0; }
+.media-rw { page-break-inside: avoid; text-indent: 0; text-align: left; }
+.media-rw h4 { font-size: 1em; font-weight: bold; padding: 0.5em 0 0.5em 0; text-align: left; }
+.media-rw h5 { font-size: 1em; font-weight: bold; padding: 0.75em 0 0.25em 0; }
+.media-rw h6 { font-size: 1em; font-style: italic; padding: 0.75em 0 0.5em 0; }
+.media-rw p { text-indent: 0; text-align: left; }
+.image-rw { margin-top: 0em; margin-right: 0; margin-bottom: 0.5em; padding: 0; }
+.layout-rw table { table-layout: auto; border-collapse: collapse; margin-top: 0.5em; margin-bottom: 0.5em; }
+.layout-rw table th { font-size: 1em; line-height: 1em; font-weight: normal; vertical-align: top; }
+.layout-rw table td { font-size: 1em; line-height: 1em; font-weight: normal; vertical-align: top; }
+.layout-rw table thead th { font-size: 1em; line-height: 1em; font-weight: normal; vertical-align: top; }
+.layout-rw table tbody td { font-size: 1em; line-height: 1em; font-weight: normal; vertical-align: top; }
+.width-auto-rw .pc-rw { width: auto; }
+.pc-rw { margin: 0; padding: 0; }
+.pc-rw img { width: 100%; margin: 0; padding: 0; }
+.pc-rw table { width: 100%; margin: 0; padding: 0; }
+.pc-rw p { text-align: left; }
+div.pc-rw>:first-child { margin-top: 0; padding-top: 0; }
+div.pc-rw>:last-child { margin-bottom: 0; padding-top: 0; }
+div.align-right-rw { display: block; text-align:right; margin-left: auto; }
+.align-right-rw table { margin: 0 0 0 auto; }
+.align-right-rw .pc-rw { margin: 0 0 0 auto; }
+.align-right-rw .pc-rw img { margin: 0 0 0 auto; }
+.align-right-rw .pc-rw object { margin: 0 0 0 auto; }
+div.align-center-rw { display: block; text-align:center; margin-left: auto; margin-right: auto; }
+.align-center-rw table { margin: 0 auto 0 auto; }
+.align-center-rw .pc-rw { margin: 0 auto 0 auto; }
+.align-center-rw .pc-rw img { margin: 0 auto 0 auto; }
+.align-center-rw .pc-rw object { margin: 0 auto 0 auto; }
+.metadata-section-rw { display: none; }
+.section-break { font-size: 12px; font-weight: bold; font-family: Arial, sans-serif; text-align: center; background-color: rgb(220, 220, 220); border-top: 1px solid rgb(120, 120, 120); border-bottom: 1px solid rgb(120, 120, 120); padding-top: 15px; }
+.general-rw h4 { font-size:1.5em; line-height:1.8em; text-align:center; font-style:normal; }
+.general-rw p { text-align:center; font-style:normal; text-indent:0; }
+.general-rw h4 { margin-top:0em !important; }
+.general-rw p:last-child { font-style:italic; }
+.boxed-rw { text-align: center; }
+.boxed-rw p:first-child { text-align:center; text-indent:0pt; }
+.boxed-rw ol { margin: 1em; display: inline-block; }
+#Frontispiece1 .caption-rw { text-align:center; font-style:normal; font-size:14pt; line-height:16pt; margin:0; padding:0 0 6pt 0; }
+#Frontispiece1 .source-rw { text-align:center; font-style:italic; font-size:11pt; line-height:12pt; margin:0; padding:0; }
+p.alt-rw { font-family: sans-serif; }

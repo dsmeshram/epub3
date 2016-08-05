@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en" unique-identifier="pub-id">
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title id="title">Guy de Maupassant Short Stories Sampler</dc:title>
+    <dc:creator id="creator">Guy de Maupassant</dc:creator>
+    <dc:language>en</dc:language>
+    <dc:identifier id="pub-id">igp-gdm-sa</dc:identifier>
+    <dc:source>igp-gdm-sa-pb</dc:source>
+    <meta property="dcterms:modified">2013-04-24T08:41:30Z</meta>
+    <dc:date>2013</dc:date>
+    <dc:publisher>Infogrid Pacific Pte. Ltd.</dc:publisher>
+    <dc:contributor id="contrib1">Translated by Albert M.C. McMaster, B.A., A.E.  Henderson, B.A., Mme. Quesada and others</dc:contributor>
+    <dc:rights>Creative Commons, Attribution-No Derivative Works 3.0 License</dc:rights>
+    <dc:description>Madame Parisse, Two Friends, Beside Schopenhauer’s Corpse, The Mustache, The Impolite Sex, The Dispenser OfHoly Water, The Wolf, The Wrong House, A Queer Night In Paris, Monsieur Parent, Julie Romain, A Tress Of Hair, My Twenty-Five Days, Legend Of Mont St. Michel, Clochette, The Rabbit, The Effeminates, Sundays Of A Bourgeois, At Sea, The Farmer’s Wife, The Umberella, The Penguins’ Rock, Dead Woman’s Secret, Regret, The Magic Couch, Boitelle</dc:description>
+    <dc:subject>Classic Fiction, Short stories</dc:subject>
+</metadata>
+<manifest>
+    <item id="toc" properties="nav" href="TOC.xhtml" media-type="application/xhtml+xml" />
+    <item id="cover"  href="cover.xhtml" media-type="application/xhtml+xml" />
+    <item id="cover-image" properties="cover-image" href="images/igp-gdm-sa.jpg" media-type="image/jpeg" />
+    <item id="s001" properties="svg" href="s001-BookTitlePage-01.xhtml" media-type="application/xhtml+xml" />
+    <item id="s002"  href="s002-Copyright-01.xhtml" media-type="application/xhtml+xml" />
+    <item id="s004"  href="s004-Acknowledgements-01.xhtml" media-type="application/xhtml+xml" />
+    <item id="s005"  href="s005-TableOfContents-01.xhtml" media-type="application/xhtml+xml" />
+    <item id="s006"  href="s006-Preface-01.xhtml" media-type="application/xhtml+xml" />
+    <item id="s007"  href="s007-Chapter-001.xhtml" media-type="application/xhtml+xml" />
+    <item id="s008"  href="s008-Chapter-002.xhtml" media-type="application/xhtml+xml" />
+    <item id="s009"  href="s009-Chapter-003.xhtml" media-type="application/xhtml+xml" />
+    <item id="s010"  href="s010-Chapter-004.xhtml" media-type="application/xhtml+xml" />
+    <item id="s011"  href="s011-Chapter-005.xhtml" media-type="application/xhtml+xml" />
+    <item id="s012"  href="s012-Chapter-006.xhtml" media-type="application/xhtml+xml" />
+    <item id="s013"  href="s013-Chapter-007.xhtml" media-type="application/xhtml+xml" />
+    <item id="s014"  href="s014-Chapter-008.xhtml" media-type="application/xhtml+xml" />
+    <item id="s015"  href="s015-Chapter-009.xhtml" media-type="application/xhtml+xml" />
+    <item id="s016"  href="s016-Chapter-010.xhtml" media-type="application/xhtml+xml" />
+    <item id="s017"  href="s017-Chapter-011.xhtml" media-type="application/xhtml+xml" />
+    <item id="s018"  href="s018-Chapter-012.xhtml" media-type="application/xhtml+xml" />
+    <item id="s019"  href="s019-Chapter-013.xhtml" media-type="application/xhtml+xml" />
+    <item id="s020"  href="s020-Chapter-014.xhtml" media-type="application/xhtml+xml" />
+    <item id="s021"  href="s021-Chapter-015.xhtml" media-type="application/xhtml+xml" />
+    <item id="s022"  href="s022-Chapter-016.xhtml" media-type="application/xhtml+xml" />
+    <item id="s023"  href="s023-Chapter-017.xhtml" media-type="application/xhtml+xml" />
+    <item id="s024"  href="s024-Chapter-018.xhtml" media-type="application/xhtml+xml" />
+    <item id="s025"  href="s025-Chapter-019.xhtml" media-type="application/xhtml+xml" />
+    <item id="s026"  href="s026-Chapter-020.xhtml" media-type="application/xhtml+xml" />
+    <item id="s027"  href="s027-Chapter-021.xhtml" media-type="application/xhtml+xml" />
+    <item id="s028"  href="s028-Chapter-022.xhtml" media-type="application/xhtml+xml" />
+    <item id="s029"  href="s029-Chapter-023.xhtml" media-type="application/xhtml+xml" />
+    <item id="s030"  href="s030-Chapter-024.xhtml" media-type="application/xhtml+xml" />
+    <item id="s031"  href="s031-Chapter-025.xhtml" media-type="application/xhtml+xml" />
+    <item id="s032"  href="s032-Chapter-026.xhtml" media-type="application/xhtml+xml" />
+    <item id="images-001"  href="images/gdm-title-page-sampler.svg" media-type="image/svg+xml" />
+    <item id="css-001"  href="css/igp-gdm-sa.css" media-type="text/css" />
+    <item id="fonts-001"  href="fonts/SourceSansPro-Black.woff" media-type="application/font-woff" />
+    <item id="fonts-002"  href="fonts/SourceSansPro-BlackIt.woff" media-type="application/font-woff" />
+    <item id="fonts-003"  href="fonts/SourceSansPro-Bold.woff" media-type="application/font-woff" />
+    <item id="fonts-004"  href="fonts/SourceSansPro-BoldIt.woff" media-type="application/font-woff" />
+    <item id="fonts-005"  href="fonts/SourceSansPro-ExtraLight.woff" media-type="application/font-woff" />
+    <item id="fonts-006"  href="fonts/SourceSansPro-ExtraLightIt.woff" media-type="application/font-woff" />
+    <item id="fonts-007"  href="fonts/SourceSansPro-It.woff" media-type="application/font-woff" />
+    <item id="fonts-008"  href="fonts/SourceSansPro-Light.woff" media-type="application/font-woff" />
+    <item id="fonts-009"  href="fonts/SourceSansPro-LightIt.woff" media-type="application/font-woff" />
+    <item id="fonts-010"  href="fonts/SourceSansPro-Regular.woff" media-type="application/font-woff" />
+    <item id="fonts-011"  href="fonts/SourceSansPro-Semibold.woff" media-type="application/font-woff" />
+    <item id="fonts-012"  href="fonts/SourceSansPro-SemiboldIt.woff" media-type="application/font-woff" />
+</manifest>
+<spine page-progression-direction="ltr">
+    <itemref idref="s001" linear="yes" />
+    <itemref idref="s002" linear="yes" />
+    <itemref idref="s004" linear="yes" />
+    <itemref idref="s005" linear="yes" />
+    <itemref idref="s006" linear="yes" />
+    <itemref idref="s007" linear="yes" />
+    <itemref idref="s008" linear="yes" />
+    <itemref idref="s009" linear="yes" />
+    <itemref idref="s010" linear="yes" />
+    <itemref idref="s011" linear="yes" />
+    <itemref idref="s012" linear="yes" />
+    <itemref idref="s013" linear="yes" />
+    <itemref idref="s014" linear="yes" />
+    <itemref idref="s015" linear="yes" />
+    <itemref idref="s016" linear="yes" />
+    <itemref idref="s017" linear="yes" />
+    <itemref idref="s018" linear="yes" />
+    <itemref idref="s019" linear="yes" />
+    <itemref idref="s020" linear="yes" />
+    <itemref idref="s021" linear="yes" />
+    <itemref idref="s022" linear="yes" />
+    <itemref idref="s023" linear="yes" />
+    <itemref idref="s024" linear="yes" />
+    <itemref idref="s025" linear="yes" />
+    <itemref idref="s026" linear="yes" />
+    <itemref idref="s027" linear="yes" />
+    <itemref idref="s028" linear="yes" />
+    <itemref idref="s029" linear="yes" />
+    <itemref idref="s030" linear="yes" />
+    <itemref idref="s031" linear="yes" />
+    <itemref idref="s032" linear="yes" />
+</spine>
+</package>
