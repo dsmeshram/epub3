@@ -73,6 +73,10 @@ epub3 = function(bookpath, callback) {
 				}
 				pathfirst = rootfile.split("/");
 				console.log(rootfile);
+				
+				xmlhttp.open("GET", containerfilepath, true);
+				xmlhttp.send(null);
+
 
 			} else if (xmlhttp.responseURL.includes('.opf')) {
 				var xmlDoc = new DOMParser().parseFromString(
@@ -144,9 +148,7 @@ epub3 = function(bookpath, callback) {
 			}
 		}
 	};
-	xmlhttp.open("GET", containerfilepath, false);
-	xmlhttp.send(null);
-
+	
 	xmlhttp.open("GET", containtfile, true);
 
 	xmlhttp.send(null);
