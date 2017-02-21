@@ -74,9 +74,9 @@ epub3 = function(bookpath, callback) {
 				pathfirst = rootfile.split("/");
 				console.log(rootfile);
 				
-				xmlhttp.open("GET", containerfilepath, true);
-				xmlhttp.send(null);
+				xmlhttp.open("GET", containtfile, true);
 
+				xmlhttp.send(null);
 
 			} else if (xmlhttp.responseURL.includes('.opf')) {
 				var xmlDoc = new DOMParser().parseFromString(
@@ -148,10 +148,10 @@ epub3 = function(bookpath, callback) {
 			}
 		}
 	};
-	
-	xmlhttp.open("GET", containtfile, true);
-
+	xmlhttp.open("GET", containerfilepath, true);
 	xmlhttp.send(null);
+
+	
 
 	readerObj = new reader(new reader(), mbook);
 	return readerObj;
@@ -323,6 +323,12 @@ togglepages = function() {
 		addmode(width, scrollheight - 20);
 		twopage = false;
 	}
+
+}
+
+verticlemode =  function()
+{
+	addmode(0,0);
 
 }
 
